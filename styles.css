@@ -1,0 +1,66 @@
+/* Återställ standardmarginaler och padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(156, 156, 156);
+}
+
+/* Styla trafikljuscontainer */
+.traffic-light {
+    width: 90px;
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding: 5px;
+
+}
+
+/* Styla röd lampa */
+.red {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border: 7px solid rgb(100, 30, 30);  
+}
+
+.small-box-red {
+    width: 66px;
+    height: 33px;
+    background-color: rgb(237, 162, 162);
+    margin-top: 33px;
+}
+/* Styla gul lampa */
+.yellow {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border: 7px solid rgb(224, 179, 72);
+    
+}
+.small-box-yellow {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 252, 173);
+    margin-top: 36px;
+    margin-left: 36px;
+}
+
+/* Styla grön lampa */
+.green {
+    width: 80px;
+    height: 80px;
+    background-color:rgb(2, 142, 2);
+    border: 7px solid rgb(43, 95, 52);
+    
+}
+.small-box-green {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(180, 239, 163);
+    margin-top: 36px;
+}
